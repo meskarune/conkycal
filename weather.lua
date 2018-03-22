@@ -89,7 +89,7 @@ ${alignc}${voffset 28} %s
 ${alignc}Humidity: ${color1}%s%%${color}
 ${alignc}Wind: ${color1}%s%s %s${color}
 
-${alignc}${image ~/.config/conky/sunrise.png -p 0,430 -s 32x32}      ${color1}%s${color}         ${image ~/.config/conky/sunset.png -p 120,430 -s 32x32}${color1}%s${color}
+${alignc}${image ~/.config/conky/icons/sunrise.png -p 0,430 -s 32x32}      ${color1}%s${color}         ${image ~/.config/conky/icons/sunset.png -p 120,430 -s 32x32}${color1}%s${color}
 ]]
 
 io.write((conky_text):format(icon,
